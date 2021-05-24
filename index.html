@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head> 
+  <title> Dony </title>
+  <link rel="icon" href="LOGO_3.png" type="image/x-icon"/>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <div class="header"> <img src="LOGO_2.png"> </div>
+  
+  <br>
+  
+  <img class="cover" src="C1.png"> <br> <br>
+  
+  <div class="slideshow">
+    <div class="mySlides"> <img src="AD1.png"> </div>
+    <div class="mySlides"> <img src="AD2.png"> </div>
+    <div class="mySlides"> <img src="AD3.png"> </div>
+    <div class="mySlides"> <img src="AD4.png"> </div>
+    <div class="mySlides"> <img src="AD5.png"> </div>
+    <div class="mySlides"> <img src="AD6.png"> </div>
+    <div class="mySlides"> <img src="AD7.png"> </div>
+    <div class="mySlides"> <img src="AD8.png"> </div>
+  </div> 
+  <br>
+  <div class="header1"> <img src="LOGO_5.png"> </div> <br>
+  <div class="card"> <img src="SD1.png"> <p> Yellove Donut </p> </div>
+  <div class="card"> <img src="SD5.png"> <p> Hulky Donut </p> </div>
+  <div class="card"> <img src="SD2.png"> <p> Spidy Donut </p> </div>
+  <div class="card"> <img src="SD3.png"> <p> Flashy Donut </p> </div>
+  <div class="card"> <img src="SD4.png"> <p> Batty Donut </p> </div> <br>
+
+  <div class="header1"> <img src="LOGO_4.png"> </div> <br>
+  <div class="card"> <img src="D3.png" alt="Strawberry"> <p> Strawberry </p> </div>
+  <div class="card"> <img src="D2.png" alt="Chocolate">  <p> Chocolate </p>  </div>
+  <div class="card"> <img src="D6.png" alt="Chocolate Cake"> <p> Choclate Cake Donut </p> </div>
+  <div class="card"> <img src="D5.png" alt="Cream-filled"> <p> Cream-Filled </p> </div>
+  <div class="card"> <img src="D4.png" alt="Jelly"> <p> Jelly </p> </div>
+
+  <div class="header1"> <img src="LOGO_6.png"> </div> <br>
+  <div class="card"> <img src="D1.png"> <p> Red Velvet Donut</p> </div>
+  <div class="card"> <img src="D10.png"> <p> Mint Chocolate Donut </p> </div>
+  <div class="card"> <img src="D7.png"> <p> Blueberry Donut </p> </div>
+  <div class="card"> <img src="D8.png"> <p> Key Lime Coconut Donut </p> </div>
+  <div class="card"> <img src="D9.png"> <p> Sticky Orange Olive Oil Donuts </p> </div>
+  
+  <footer>
+    <img src="LOGO_2.png">
+    <ul>
+      <li><a style="background-color:#F77C68; color:white; cursor:default;"> Home </a></li>
+      <li><a href="sm.html"> Safety Measures </a></li>
+      <li><a href="about.html"> About</a></li>
+    </ul>
+  </footer>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 5000);
+}
+</script>
+
+</body>
+</html>
+
+

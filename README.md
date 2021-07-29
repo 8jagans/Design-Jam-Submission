@@ -1,2 +1,2 @@
-# `Design-Jam-Submission`
+# Design-Jam-Submission
 DONY DONUTS
